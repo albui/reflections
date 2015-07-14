@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+The diff identified the lines of code that changed between one version and the
+next and displayed them in the console window side by side so that I could
+easily spot the difference. It also showed the line where the difference was
+found so that any errors can be easily located in the source file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It will allow you to see you have previously written code compared to how you
+write it now so that you can work out which way is more efficient.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pro: of manual way is that you can control exactly when the commit occurs, e.g.
+after a big change in the code so that you can more easily find specific
+changes when you are looking over your previous versions.
+Con: of manual way is that you may forget to commit regularly and so when you
+introduce a new bug, in order to go to a version that does not have this bug,
+it may be very different or be missing large chunks of code that you have
+worked on.
+Pro: of automatic way is that you can be sure that every small change you make
+is regularly saved.
+Con: of automatic way is that small insignificant changes are committed, making
+it harder to find where big functionality is implemented.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is used more for code sharing so that when you are creating a program,
+there will be many files that interact with each other for the program to work.
+Google Docs is for document sharing and so all the work that is done for a
+particular task is contained within a single document.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the commit logs which is a record of transactions. It's used to
+keep track of what's happening, it helps with things like disaster recovery
+git log will show the entire history of the commits along with the commit id
+git diff shows the changes between commits, e.g. changes between two files
+git diff is used to compare the commits using git diff old-commit-id
+new commit-id
+
+How might using version control make you more confident to make changes that
+could break something?
+
+It means that if you wanted to implement a change, you don't have to worry
+about breaking the code because you can always go back to a previous version
+Without version control, development is working in baby steps, incremental
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git to create a mobile app for Android
