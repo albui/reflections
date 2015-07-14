@@ -25,6 +25,11 @@ encompasses only a single logical change before committing.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches allow you to have multiple versions of your program, e.g. different
+language, experimental feature implemented, master branch. This means that
+while you are working on a branch that may introduce bugs, you still have a
+bug-free working version that you can demonstrate to others.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
