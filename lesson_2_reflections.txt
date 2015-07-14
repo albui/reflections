@@ -32,6 +32,10 @@ bug-free working version that you can demonstrate to others.
 
 How do the diagrams help you visualize the branch structure?
 
+Diagrams allow you to see where the code commits branch off as well as see
+which commits can be reached by other commits. The branches also allow us to
+keep track of which branches contain which commits.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
