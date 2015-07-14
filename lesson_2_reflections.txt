@@ -17,6 +17,11 @@ the repository.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+If there are multiple changes in the working directory, you can add a single
+file at a time to the staging area if the logical change only involves one
+file. After it is added, git status can be used to double check the addition
+encompasses only a single logical change before committing.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
