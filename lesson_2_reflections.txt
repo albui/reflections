@@ -39,5 +39,11 @@ keep track of which branches contain which commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches combines the changes that have been committed in each
+branch so that the single version contains all the changes from both. This
+combined version is represented as a new commit, which contains information
+about both its parents. This new commit becomes the new tip of the master
+branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
