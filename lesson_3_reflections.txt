@@ -47,4 +47,8 @@ one person at a time can work on the code.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+If you are collaborating with other people on a main master branch, you would
+create a new branch so that your changes don't affect master. That way, you can
+check with the collaborators to see if they agree with your changes before
+merging into master. Working directly on master, on the other hand, is quicker
+and requires fewer steps to make a change if you are working alone.
