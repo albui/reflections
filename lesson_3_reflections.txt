@@ -29,7 +29,10 @@ either just the local machine or just on GitHub.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+This means that any changes or commits that other collaborators have made get
+copied to the local machine so that they can be merged with the commits on the
+local machine. Then this latest commit can be pushed to GitHub so that all the
+commits are in sync and up to date.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
