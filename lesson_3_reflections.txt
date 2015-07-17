@@ -37,7 +37,12 @@ commits are in sync and up to date.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Collaboration could be done through email where one person makes a change and
+notifies the collaborators of the change and waits for their response or
+changes. This would be harder and more time consuming because every time a
+change is made, you would need to write a new email. And for every change,
+there would be a new version or copy of the work. It would also mean that only
+one person at a time can work on the code.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
